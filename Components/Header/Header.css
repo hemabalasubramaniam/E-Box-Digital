@@ -1,0 +1,90 @@
+.screenheader > .ui.menu{
+    background-color: black;
+    padding-top: 1.5em;
+    padding-bottom: 2em;
+}
+
+.screenheader > .ui.menu .item{
+    color: white;
+    size: 20px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.ui.image.logo{
+    width: 140px;
+    padding: 7px;
+}
+.logotext{
+    color: #47BAB4;
+    font-size: 22px;
+}
+.screenheader > .ui.menu > .right.menu
+{
+    margin-right: 70px;
+}
+
+.screenheader > .ui.menu > .right.menu > .item:hover{
+    color: white;
+}
+
+.screenheader > .ui.menu > .right.menu > .item > .cart{
+    width: 30px;
+}
+
+.screenheader > .ui.menu > .right.menu > .item > .userlogo{
+    width: 25px;
+    height: 25px;
+}
+
+.screenheader > .ui.menu > .left.menu
+{
+    margin-left: 60px;
+}
+
+.mobileheader{
+    display: none;
+}
+
+
+@media only screen and (max-width:600px){
+    .screenheader{
+        display: none;
+    }
+    .mobileheader{
+        display: block;
+    }
+    .mobileheader >.ui.menu.mobheader > .right.menu > .ui.one.column.grid > .column > span > i{
+        font-size: 32px;
+        margin-top: 20px;
+        color: white;
+    }
+    .mobileheader >.ui.menu.mobheader{
+        background-color: black;
+    }
+    .ui.visible.right.overlay.sidebar{
+        width: 250px;
+    }
+    .ui.labeled.icon.menu .item{
+        font-size: 20px;
+    }
+    .ui.labeled.icon.menu .item:hover{
+        background-color: black;
+        color: white;
+    }
+    .ui.menu .item > p.username{
+        margin-right: 125px;
+    }
+    .ui.labeled.icon.menu .item.top{
+        background-color: #47BAB4;
+    }
+
+    .slick-slider > ul > li >button::before{
+        width: 100%;
+        font-size: 22px;
+    } 
+
+    .slick-dots li button::before{
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,80 @@
+.ui.clearing.segment{
+    background-color: black;
+    width: 90%;
+    margin: auto;
+    padding: 60px;
+}
+
+.footer{
+    background-color: black;
+    margin-top: 15px;
+}
+
+.ui.floated.header > p{
+    color: white;
+    margin-bottom: 5px;
+    margin-top: 7px;
+    font-family: 'Be Vietnam Pro';
+    font-weight: 300;
+}
+.ui.floated.header > .ui.image{
+    width: 30px;
+    margin-left: 10px;
+}
+
+div > .ui.image.footerlogo{
+    width: 100px;
+}
+
+.ui.floated.header > p.text{
+    font-size: 12px;
+}
+.ui.floated.header > span > p{
+    color: white;
+    font-size: 14px;
+}
+
+.footercontent{
+    display: flex;
+}
+
+.footercontent > div > .ui.image.footertext{
+    margin-top: 10px;
+    margin-left: -15px;
+    width: 200px; 
+}
+
+.text1{
+    color: white;
+    margin-left: -10px;
+    font-size: 16px;
+    font-family: 'Be Vietnam Pro';
+    font-weight: 600;
+    font-size: 12px;
+    margin-top: 6px;
+}
+
+@media only screen and (max-width:600px){
+    .footercontent{
+        display: block;
+    }
+    .ui.clearing.segment{
+        width: 100%;
+        padding: 0px;
+    }
+    .footercontent{
+        display: flex;
+    }
+    .footerright > .ui.right.floated.header{
+        margin-right: 170px;
+    }
+    .footer > .ui.clearing.segment{
+        margin-top: 30px;
+    }
+    .ui.floated.header > .ui.image {
+        margin-left: 5px;
+
+    }
+   
+}
+

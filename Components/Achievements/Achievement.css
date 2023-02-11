@@ -1,0 +1,50 @@
+.achievements > div > .ui.image{
+    width: 60%;
+}
+
+.achievements{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 5.5em;
+}
+
+.achievements > .flex1 {
+    padding-left: 5em;
+}
+
+.achievehead{
+    text-align: center;
+    font-weight: bold;
+    font-size: 2.2em;
+    font-family: 'Be Vietnam Pro';
+    margin-top: 1em;
+    margin-bottom:1em ;
+}
+.count, .category{
+   margin-left: 0.7em;
+   font-family: 'Be Vietnam Pro';
+}
+
+@media only screen and (max-width:600px){
+    .achievements{
+        display: grid;
+        grid-template-columns: auto auto;
+        margin-bottom: 5em;
+        margin-left: 5em;
+    }
+    .achievements > div > .ui.image{
+        width: 50%;
+    }
+    .achievements > .flex1 {
+        padding-left: 0em;
+    }
+
+    .count, .category{
+        margin-right: 9em;  
+        font-size: 1em;
+        font-family: 'Be Vietnam Pro';
+        text-align: center;
+     }
+
+}

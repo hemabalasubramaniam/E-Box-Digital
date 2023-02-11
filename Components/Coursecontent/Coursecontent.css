@@ -1,0 +1,94 @@
+.ui.card.courses > .content > .ui.feed > .event{
+    background-color: white;
+    padding: 10px;
+    margin-top: 17px;
+}
+
+div > .ui.card.courses{
+    width: 100%;
+    background-color: rgba(54,202,188,0.5);
+    border-radius: 10px;
+}
+
+.courselist{
+    display: flex;
+}
+
+.ui.card.courses > .content > .ui.feed >.event.heading{
+    margin-bottom: 35px;
+}
+
+.ui.feed > .event > .content > .summary > .contentheader > div > .ui.image.youtubelogo{
+    width: 30px;
+    height: 24px;
+}
+
+.ui.feed > .event > .content > .summary > .contentheader > div > .ui.image.timer{
+    width: 30px;
+    height: 24px;
+}
+
+.ui.feed > .event > .content > .summary > .contentheader > div > .ui.image.programs{
+    width: 30px;
+    height: 24px;
+}
+
+.ui.feed > .event > .content > .summary > .contentheader > div > .ui.image.assesments{
+    width: 30px;
+    height: 24px;
+}
+
+
+span > .text{
+    font-family: 'Arvo';
+    font-weight: 400;
+    color: #47BAB4;
+}
+
+.ui.card.courses{
+    height: 750px;
+    overflow: scroll;
+
+}
+
+.accordionheader > button{
+    width: 100%;
+    background-color: white;
+    border: none;
+    border-radius: 6px;
+}
+.headericon{
+    display: flex;
+}
+
+.accordionheader > button > .ui.floated.header > .ui.icon{
+    width: 5px;
+    margin-right: 5px;
+}
+
+.contentheader{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.row2{
+    margin-top: 20px;
+}
+
+.slick-slider > .slick-dots > li > button::before{
+        font-family: 'slick';
+        font-size: 15px;
+        line-height: 20px;
+        color: rgba(54,202,188,0.5);
+}
+
+.slick-slider > .slick-dots > li.slick-active > button::before{
+    color: #47BAB4;
+}
+
+.accordionheader > button > .ui.floated.header > div > h3{
+    text-align: justify;
+    overflow: hidden;
+}
+
+

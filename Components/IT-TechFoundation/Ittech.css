@@ -1,0 +1,97 @@
+.outerittech{
+    background-image: url('../Image/ittechbackground.png');
+    background-repeat: no-repeat;
+    background-position: top 17em left;
+    background-size: 32%;
+}
+
+.ittech{
+    width: 65%;
+    margin: auto;
+}
+
+.ittech > h1.ittechhead{
+    font-family: 'Be Vietnam Pro';
+    margin-top: 3em;
+    font-size: 2.5em;
+}
+
+.ittech > p.ittechtext{
+    font-family: 'Be Vietnam Pro';
+    font-size: 1.3em;
+    font-weight: normal;
+    line-height: 1.8;
+}
+
+.ittech > .ittechcourses > a > .ui.link.card.coursetypecard > .content > .header > div.coursecardheader > div.divlogo > .ui.image.tracklogo{
+    width: 2em;
+}
+
+.ittech > .ittechcourses > a > .ui.link.card.coursetypecard{
+    width: 19em;
+    padding: 0px;
+    border-radius: 2em;
+    box-shadow: 5px 5px 8px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 2em;
+}
+
+.ittech > .ittechcourses > a > .ui.link.card.coursetypecard > .content > .ui.image.courselogo{
+    height: 18em;
+    border-radius: 0em 0em 2em 2em;
+}
+
+.ittech > .ittechcourses >  a > .ui.link.card.coursetypecard{
+    border: 2px solid #47BAB4;
+}
+
+.ittechcourses{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+}
+
+.ittech > .ittechcourses > a > .ui.link.card.coursetypecard > .content > .header >div.coursecardheader{
+    display: flex;
+}
+
+.ittech > .ittechcourses > a > .ui.link.card.coursetypecard > .content > .header > div.coursecardheader > div > p.cname{
+    font-weight: normal;
+    font-size: 0.9em;
+    line-height: 2em;
+    font-family: 'Be Vietnam Pro';
+    margin-left: 1em;
+}
+.ittech > .ittechcourses > a > .ui.link.card.coursetypecard > .content.img{
+    padding: 0px;
+    height: 18em;
+}
+
+.ittech > .ittechcourses >  a > .ui.link.card.coursetypecard > .content > .header > div.coursecardheader{
+    height: 5em;
+}
+
+.ittech > .ittechcourses >  a > .ui.link.card.coursetypecard > .content > .header > div.coursecardheader > div.divlogo {
+    width: 20%;
+}
+
+.ittech > .ittechcourses >  a > .ui.link.card.coursetypecard > .content > .header > div.coursecardheader > div.divname{
+    width: 80%;
+}
+
+@media only screen and (max-width : 600px){
+    .ittech > h1.ittechhead{
+        font-size: 5vw;
+    }
+    .ittech > p.ittechtext{
+        font-size: 3vw;
+    }
+    .ittechcourses{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .ittech{
+        width: 90%;
+        margin: auto;
+    }
+    
+}

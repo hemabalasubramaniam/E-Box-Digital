@@ -1,0 +1,46 @@
+.courseofferings{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 80%;
+    margin: auto;
+    
+}
+
+.courseofferings > div > a > .ui.card > .cardhead{
+    font-family: 'Be Vietnam Pro';
+    font-size: 1.6em;
+    margin-bottom: 0em;
+    color: black;
+}
+
+.courseofferings > div > a >.ui.card{
+    padding: 1em;
+    border: 1px solid #47BAB4;
+    margin: 2em;
+    border-radius: 5px 40px 40px 5px
+}
+
+.courseofferings > div > a > .ui.card > .content > .header{
+    font-family: 'Be Vietnam Pro';
+    font-size: 17px;
+    margin-left: -0.6em;
+}
+
+.offeringstext{
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: 'Be Vietnam Pro';
+    margin-bottom: -0em;
+}
+
+@media only screen and (max-width:600px){
+    .courseofferings{
+        display: block;
+        width: 75%;
+        margin: auto;
+    }
+    .courseofferings > div{
+        margin-bottom: 5em;
+    }
+}

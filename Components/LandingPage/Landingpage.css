@@ -1,0 +1,71 @@
+.homelogo{
+    position: relative;
+    margin-bottom: 2em;
+}
+.hometext{
+    position: absolute;
+    top: 14em;
+    left: 4em;
+    color: white;
+    width: 40%;
+    text-align: center;
+    font-family: 'Be Vietnam Pro';
+}
+
+.hometext > h1{
+    font-family: 'Be Vietnam Pro';
+}
+
+.ui.button.getstarted{
+   padding: 0.8em 3em 0.8em 3em;
+   border-radius: 0.8em;
+   font-size: 24px;
+   font-family: 'Be Vietnam Pro';
+}
+
+.whyebox, .eboxstory{
+    width: 75%;
+    margin: auto;
+    margin-bottom: 4em;
+}
+
+.webox, .story{
+    text-align: center;
+    font-weight: bold;
+    font-size: 2.2em;
+    font-family: 'Be Vietnam Pro';
+    margin-top: 1.5em;
+    margin-bottom:1em ;
+}
+
+.eboxstory > .story{
+    margin-top: 2em;
+}
+
+@media only screen and (max-width : 600px){
+    .hometext{
+        position: absolute;
+        top: 1em;
+        left: 1em;
+        color: white;
+        width: 40%;
+        text-align: justify;
+        font-family: 'Be Vietnam Pro';
+    }
+    .ui.button.getstarted{
+        padding: 0.8em 3em 0.8em 3em;
+        border-radius: 0.8em;
+        font-size: 1em;
+        font-family: 'Be Vietnam Pro';
+        text-align: center;
+     }
+
+     .hometext > h1{
+        font-family: 'Be Vietnam Pro';
+        font-size: 1.2em;
+    }
+
+    .homelogo > .ui.image.homeimg{
+        height: 18em;
+    }
+}

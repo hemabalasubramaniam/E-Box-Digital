@@ -1,0 +1,45 @@
+.alumini > .ui.container.aluminilist{
+    border: 1px solid black;
+    width: 70%;
+    height: 20em;
+    border-radius: 4em;
+    margin-bottom: 2em;
+    border: 1px solid #47BAB4;
+    background-color: white;
+}
+
+.alumini > .ui.container.aluminilist >.ui.header{
+    text-align: center;
+    margin-top: 3em;
+    font-family: 'Be Vietnam Pro';
+    font-size: 2em;
+}
+
+.alumini > .ui.container.aluminilist > div > .slick-slider > .slick-list > .slick-track > .slick-slide > div > p{
+    font-family: 'Be Vietnam Pro';
+    font-size: 1.8em;
+    margin-top: 1em;
+}
+
+@media only screen and (max-width : 600px){
+    .alumini > .ui.container.aluminilist{
+        border: 1px solid black;
+        width: 50%;
+        height: 15em;
+        border-radius: 4em;
+        margin-bottom: 2em;
+        border: 1px solid #47BAB4;
+        background-color: white;
+    }
+    .alumini > .ui.container.aluminilist >.ui.header{
+        text-align: center;
+        margin-top: 3em;
+        font-family: 'Be Vietnam Pro';
+        font-size: 1.5em;
+    }
+    .alumini > .ui.container.aluminilist > div > .slick-slider > .slick-list > .slick-track > .slick-slide > div > p{
+        font-family: 'Be Vietnam Pro';
+        font-size: 1.2em;
+        margin-top: 1em;
+    }
+}

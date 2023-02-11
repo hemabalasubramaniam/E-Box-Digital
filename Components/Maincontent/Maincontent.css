@@ -1,0 +1,139 @@
+.maincontent{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    margin-top: 20px;
+    font-family: 'Be Vietnam Pro';
+}
+
+.accordioncontent{
+    display: none;
+}
+.track3{
+    width: 40%;
+    margin-top: 40px;
+    margin-right: 80px;
+    text-align: justify;
+}
+.video{
+    width: 50%;
+    margin-left: 20px;
+}
+
+.video > video{
+    height: 450px;
+    width: 100%;
+}
+
+.aboutcontent{
+    width: 88%;
+    margin: auto;
+    margin-top: 100px;
+    font-family: 'Be Vietnam Pro';
+}
+
+
+.aboutcoursetext, .objective, .contents{
+    font-family: 'Besley';
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.about{
+    width: 60%;
+    text-align: justify;
+}
+
+
+.objective, .aboutcoursetext, .contents{
+    margin-top: 50px;
+    text-align: justify;
+}
+li{
+    margin-top: 20px;
+}
+
+.aboutcontent{
+    display: flex;
+}
+.coursecontent{
+    width: 40%;
+    margin-left: 80px;
+}
+
+
+.objectivelist, .mern, .aboutdesc{
+    font-size: 17px;
+    text-align: justify;
+    line-height: 1.8;
+}
+.objectivelist > ul >li::marker{
+    font-size: 28px;
+    color: gainsboro;
+}
+
+.slick-dots li button::before{
+    font-size: 25px;
+}
+
+@media only screen and (max-width:600px){
+    .aboutcontent{
+        display: block;
+    }
+    .about{
+        width: 95%;
+        margin: auto;
+    }
+    .aboutcontent{
+        width: 100%;
+        display: none;
+    }
+    .coursecontent{
+        width: 100%;
+        margin: auto;
+    }
+    .accordioncontent{
+        display: block;
+        width: 95%;
+        margin: auto;
+        margin-top: 30px;
+    }
+    .accordioncontent > .ui.card > .ui.accordion > button {
+        width: 100%;
+        color: black;
+    }
+    .accordioncontent > .ui.card{
+        width: 95%;
+        margin: auto;
+    }
+    .track3{
+        width: 100%;
+    }
+    .maincontent{
+        display: block;
+    }
+    .video{
+        width: 100%;
+        margin-left: 0px;
+    }
+    .video > video{
+        height: 250px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .accordion-items{
+        display: flex;
+    }
+    .accordion-items > .ui.icon{
+        margin-left: 20px;
+    }
+
+    .accordioncontent > .ui.card > .ui.accordion > div > p.aboutdesc{
+        padding: 10px;
+    }
+    
+    .accordioncontent > .ui.card > .ui.accordion > button > .ui.header > p{
+        color: black;
+    }
+   
+}
